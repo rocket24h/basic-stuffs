@@ -1,0 +1,32 @@
+#test-skill {
+  color: brown;
+  font-family: "Fira Sans", Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 52px;
+}
+
+#weird {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 350px;
+}
+
+#large-header {
+  font-size: 40px;
+  color: rgb(46, 43, 43);
+}
+
+main {
+  background-color: rgb(219, 111, 84);
+  border: 5px solid black;
+  width: 600px;
+  margin: -100px auto 0px auto;
+  padding: 90px 40px 40px 40px;
+  border-radius: 20px;
+}
+
+span {
+  color: rgb(46, 43, 43);
+}

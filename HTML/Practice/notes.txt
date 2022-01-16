@@ -1,0 +1,27 @@
+Use Browser Dev Tools to figure out other people's HTML
+Format your codes, different ID elements can give different styling to their own 
+Global CSS values
+Pseudo class to change the style of some elements (selector)
+Add shared css files first to each pages and then specific styling css files afterwards
+Specificity: more specific selector's rule wins over less specific sleector (following inheritance rules)
+CSS Box Model: 
++ Each elements has their own boxes that contains their contents. 
++ Padding: distance between the content and the box border (Top - Right - Bottom - Left)
++ Margin: distance between elements 
+Use Selectors and Combinators to easily format codes when things get more complex
+(Combinators structure goes selector1 selector2)
+(Classes are more specific than combinators or selectors)
+Bottom and Top margins dont work with inline elements --> Use display: inline-block element
+Margin collapsing: 
++ Only happens with adjacent & vertical elements
++ Overlapping margin, meaning the bigger margin value will be picked
+
+
+Design Tips
+_________
+Font sizes in
++ Body paragraphs: 15-25px
++ Headlines 60 - 90px (weight varies)
++ Line spacing between 120 and 150%
+_________
+45 - 90 characters per line

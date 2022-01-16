@@ -1,0 +1,168 @@
+<p>
+  Thus far, we already learned about a lot of key CSS selectors. Here's a list
+  /&nbsp;summary of all the CSS selectors that you can use in CSS (including
+  some, which we haven't seen yet):
+</p>
+<ul>
+  <li>
+    <p><strong>Tag type selector</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>p { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML element for example:
+          <code>&lt;p&gt;Some text...&lt;/p&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>This selector selects all HTML elements that are of this tag type</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>ID&nbsp;selector</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>#some-id { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;h1 id="some-id"&gt;...&lt;/h1&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selectors selects the element that has this ID&nbsp;on it (should
+          only be once per page)
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Class selector</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>.some-class { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;h1 class="some-class"&gt;...&lt;/h1&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects all HTML&nbsp;elements that have this class on
+          them
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Attribute selector </strong><em>(new)</em></p>
+    <ul>
+      <li>
+        <p>CSS: <code>[src] { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;img src="..."&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects all elements that have this HTML&nbsp;attribute
+          on them
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Universal selector</strong> <em>(new)</em></p>
+    <ul>
+      <li>
+        <p>CSS: <code>* { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;p&gt;....&lt;/p&gt;&lt;img ...&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects ALL&nbsp;HTML elements (directly, not through
+          inheritance but as if you would target them all individually)
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Grouping selector / selector list</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>p, .some-class { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code
+            >&lt;p&gt;...&lt;/p&gt;&lt;h2
+            class="some-class"&gt;...&lt;/h2&gt;</code
+          >
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects all elements that match the individual selectors
+          in that list
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Combined selector</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>p.some-class { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;p class="some-class"&gt;...&lt;/p&gt;</code>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects all elements that meet both conditions (i.e.
+          "&lt;p&gt;" elements with "some-class" class on it, in this example)
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Pseudo selector</strong></p>
+    <ul>
+      <li>
+        <p>CSS: <code>a:hover { ... }</code></p>
+      </li>
+      <li>
+        <p>
+          Would select this HTML&nbsp;element for example:
+          <code>&lt;a&gt;...&lt;/a&gt;</code
+          ><em> (when the user hovers over it)</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          This selector selects all elements that meet this "pseudo
+          state"&nbsp;(i.e. all links that are hovered in this example)
+        </p>
+      </li>
+    </ul>
+  </li>
+</ul>
